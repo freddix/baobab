@@ -1,20 +1,20 @@
 Summary:	Graphical directory tree analyzer
 Name:		baobab
-Version:	3.10
+Version:	3.12.0
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/baobab/3.10/%{name}-%{version}.tar.xz
-# Source0-md5:	244f4dcb6305bd97cb66d7300031d29d
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/baobab/3.12/%{name}-%{version}.tar.xz
+# Source0-md5:	d4a66371304e3ee4387723cbf091be31
 URL:		http://live.gnome.org/GnomeUtils
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
-BuildRequires:	gtk+3-devel >= 3.10.0
+BuildRequires:	gtk+3-devel >= 3.12.0
 BuildRequires:	intltool
 BuildRequires:	pkg-config
-BuildRequires:	vala-vapigen >= 0.22.0
-BuildRequires:	yelp-tools >= 3.10.0
+BuildRequires:	vala-vapigen >= 0.24.0
+BuildRequires:	yelp-tools
 Requires(post,postun):	/usr/bin/gtk-update-icon-cache
 Requires(post,postun):	glib-gio-gsettings
 Requires(post,postun):	hicolor-icon-theme
