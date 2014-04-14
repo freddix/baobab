@@ -1,11 +1,11 @@
 Summary:	Graphical directory tree analyzer
 Name:		baobab
-Version:	3.12.0
+Version:	3.12.1
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/baobab/3.12/%{name}-%{version}.tar.xz
-# Source0-md5:	d4a66371304e3ee4387723cbf091be31
+# Source0-md5:	1d265bf555143f7aa0a7d961fd8126c2
 URL:		http://live.gnome.org/GnomeUtils
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -59,8 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/baobab
+%{_datadir}/dbus-1/services/org.gnome.baobab.service
 %{_datadir}/glib-2.0/schemas/*.xml
-%{_desktopdir}/baobab.desktop
+%{_desktopdir}/org.gnome.baobab.desktop
 %{_iconsdir}/hicolor/*/*/*.png
 %{_iconsdir}/hicolor/*/*/*.svg
 %{_mandir}/man1/baobab.1*
