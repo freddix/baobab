@@ -1,11 +1,11 @@
 Summary:	Graphical directory tree analyzer
 Name:		baobab
-Version:	3.14.0
+Version:	3.14.1
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/baobab/3.14/%{name}-%{version}.tar.xz
-# Source0-md5:	7486664b09b6d7b62cdc0dc6e4473be3
+# Source0-md5:	629dfc1f866e04a7292d68b04fe1565c
 URL:		http://live.gnome.org/GnomeUtils
 BuildRequires:	autoconf
 BuildRequires:	automake
